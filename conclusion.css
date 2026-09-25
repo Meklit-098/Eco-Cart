@@ -1,0 +1,56 @@
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400px;
+  font-style: normal;
+} 
+/*the sections of CSS above and below are used to create a name for the fonts linked in the HTML head tag. */
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+}
+#heading {
+    font-family: DM Serif Display;
+    font-size: 70px;
+    line-height: 75px; /*changes line spacing */
+    letter-spacing:2px;
+    margin-top:70px; /*controls distance from the top end of the screen */
+    margin-left:70px; /*controls distance from the left end of the screen */
+}
+body {
+    background-image:url(https://www.transparenttextures.com/patterns/dark-denim-3.png);
+    background-repeat: repeat;
+    background-size: 250px;
+    background-position: center;
+    font-family: DM Sans;
+    color: #0c290c;
+    background-color: #fff6c5;
+}
+#intro {
+    margin-bottom: 70px;
+    margin-left: 70px;
+    max-width: 550px; /*creates a limit to how wide an element can extend*/
+    text-align: justify;
+    font-size: 30px;
+}
+.info {
+    text-align:justify;
+    font-size:30px;
+    max-width:550px;
+    margin-right:70px; /*controls distance from the right end of the screen */
+}
+.text-container {
+    display: flex; /*changes model to be one dimensional so elements can be rearranged in rows or columns */
+    justify-content: space-between; /*distributes space between items */
+    gap: 1em; /* adds space between the items. em unit is relative to font size */
+}
+a {
+    color:#0c290c;
+    text-decoration:none; /*removes extra details (the underline) from hyperlink*/
+}
+#homepage {
+    position:fixed; /*element stays in the same place on the sceen, even when scrolling */
+    top:70px; /*distance from top of screen */
+    right:10px; /*distance from right of screen */ 
+}
